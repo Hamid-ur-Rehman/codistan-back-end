@@ -85,8 +85,7 @@ app.get('/api/users', async (req, res) => {
         })
     }
 })
-
-mongoose.connect('mongodb+srv://sidramlik9090:wEINf1A87TKkAvBo@backenddb.hsymddj.mongodb.net/BackendDb?retryWrites=true&w=majority&appName=BackendDb')
+mongoose.connect('')
     .then(() => {
         console.log('Connected to database')
     }).catch((error) => {
